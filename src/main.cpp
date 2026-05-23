@@ -7,7 +7,7 @@ void setup() {
   
   delay(2000);
 
-  SerialBT.begin("ESP32_ICR"); 
+  SerialBT.begin("ESP32"); 
   
   Serial.println("Bluetooth em modo de pareamento.");
 }
